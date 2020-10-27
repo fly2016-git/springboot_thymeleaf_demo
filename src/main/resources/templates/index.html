@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个thymeleaf页面</title>
+</head>
+<body>
+<h1 th:text="${message}"></h1>
+<br/>
+ID:<span th:text="${user.id}"></span>
+NAME:<span th:text="${user.name}"></span>
+AGE:<span th:text="${user.age}"></span>
+
+<br/>
+ID:<span th:text="${map.id}"></span>
+NAME:<span th:text="${map.name}"></span>
+AGE:<span th:text="${map.age}"></span>
+</body>
+</html>
